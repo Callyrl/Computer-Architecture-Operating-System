@@ -125,7 +125,7 @@ public class Client extends Thread
             String password = tokens[2];
 
             // Allows guests to join the server
-            if(username.equals("guest") && password.equals("guest") || uusername.equals("cally") && password.equals("iloverachel") || username.equals("rachel") && password.equals("aimeeforlife") || username.equals("aimee") && password.equals("cally4ver"))
+            if(username.equals("guest") && password.equals("guest") || username.equals("cally") && password.equals("iloverachel") || username.equals("rachel") && password.equals("aimeeforlife") || username.equals("aimee") && password.equals("cally4ever"))
             {
                 String message = "logging in\n";
                 output.write(message.getBytes());
