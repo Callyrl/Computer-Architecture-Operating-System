@@ -11,10 +11,10 @@ Projects for Computer Architecture &amp; Operating System Module
     * port number: 2402
 3. Available commands:
     * **login**: log into an existing or guest account ("login _username_ _password_")
-            * type "login guest guest" into the terminal to login as a guest
+                 type "login guest guest" into the terminal to login as a guest
     * **message**: send a message to an existing user ("message _username_ _your-message_")
     * **join**: enter a group chat ("join _group-name_")
-            * type "message" + _your-message_ to broadcast to the group chat
+                type "message" + _your-message_ to broadcast to the group chat
     * **leave**: quit the group ("leave _group-name_")
     * **exit**: log out of the current account and exit the server, connection will be closed
 
